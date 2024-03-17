@@ -1,0 +1,50 @@
+{
+  "name": "soundex-type",
+  "abstract": "soundex - type",
+  "description": "soundex - type",
+  "version": "1.0.0",
+  "maintainer": [
+    "Jerry Sievert <code@legitimatesounding.com>"
+  ],
+  "license": {
+    "PostgreSQL": "https://www.postgresql.org/about/licence"
+  },
+  "prereqs": {
+    "runtime": {
+      "requires": {
+        "PostgreSQL": "15.3.0"
+      },
+      "recommends": {
+        "PostgreSQL": "15.3.0"
+      }
+    }
+  },
+  "provides": {
+    "soundex-type": {
+      "file": "postgres-type--1.0.0.sql",
+      "docfile": "README.md",
+      "version": "1.0.0",
+      "abstract": "soundex - type"
+    }
+  },
+  "resources": {
+    "bugtracker": {
+      "web": "https://github.com/pgextensions/type-template/issues"
+    },
+    "repository": {
+      "url": "https://github.com/pgextensions/type-template.git",
+      "web": "https://github.com/pgextensions/type-template",
+      "type": "git"
+    }
+  },
+  "generated_by": "Jerry Sievert",
+  "meta-spec": {
+    "version": "1.0.0",
+    "url": "https://pgxn.org/meta/spec.txt"
+  },
+  "tags": [
+    "soundex",
+    "template",
+    "example"
+  ]
+}

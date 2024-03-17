@@ -1,0 +1,5 @@
+# soundex type extension
+comment = 'soundex - type'
+default_version = '1.0.0'
+module_pathname = '$libdir/soundex-type'
+relocatable = true
